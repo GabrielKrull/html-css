@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        thead,tfoot{
+            background-color: rgb(189, 189, 189);
+            color: white;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+
+        table{
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td.numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+    <thead>
+        <tr>
+            <th>Estado</th>
+            <th>População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>São Paulo</td>
+            <td class="numero">45.973.194</td></tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="numero">21.322.691</td></tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="numero">17.219.679</td></tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="numero">14.717.491</td></tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="numero">11.930.915</td></tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class="numero">10.586.848</td></tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class="numero">9.674.793</td></tr>
+        <tr>
+            <td>Ceará</td>
+            <td class="numero">9.240.580</td></tr>
+        <tr>
+            <td>Pará</td>
+            <td class="numero">9.240.924</td></tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td class="numero">7.602.381</td></tr>
+        <tr>
+            <td>Goiás</td>
+            <td class="numero">7.281.562</td></tr>
+        <tr>
+            <td>Maranhão</td>
+            <td class="numero">7.075.181</td></tr>
+        <tr>
+            <td>Paraíba</td>
+            <td class="numero">4.039.277</td></tr>
+        <tr>
+            <td>Amazonas</td>
+            <td class="numero">3.893.763</td></tr>
+        <tr>
+            <td>Espírito Santo</td>
+            <td class="numero">3.833.712</td></tr>
+        <tr>
+            <td>Mato Grosso</td>
+            <td class="numero">3.748.903</td></tr>
+        <tr>
+            <td>Rio Grande do Norte</td>
+            <td class="numero">3.560.903</td></tr>
+        <tr>
+            <td>Piauí</td>
+            <td class="numero">3.289.290</td></tr>
+        <tr>
+            <td>Alagoas</td>
+            <td class="numero">3.120.494</td></tr>
+        <tr>
+            <td>Distrito Federal</td>
+            <td class="numero">3.015.268</td></tr>
+        <tr>
+            <td>Mato Grosso do Sul</td>
+            <td class="numero">2.882.850</td></tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class="numero">2.338.474</td></tr>
+        <tr>
+            <td>Rondônia</td>
+            <td class="numero">1.608.691</td></tr>
+        <tr>
+            <td>Tocantins</td>
+            <td class="numero">1.607.363</td></tr>
+        <tr>
+            <td>Acre</td>
+            <td class="numero">880.631</td></tr>
+        <tr>
+            <td>Amapá</td>
+            <td class="numero">903.116</td></tr>
+        <tr>
+            <td>Roraima</td>
+            <td class="numero">716.793</td></tr>
+    </tbody>
+        <tfoot> <!-- Essa bomba pode ficar em qualquer lugar  que vai funcionar  -->
+            <tr>
+                <th>Total De Habitantes</th>
+                <td class="numero"><strong> 211.305.767</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
