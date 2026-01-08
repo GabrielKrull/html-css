@@ -1,2 +1,2 @@
-CADASTRO REALIZADO COM SUCESSO!
-APRENDA COM O CURSO DE PHP.
+Os dados foram enviados!
+Aprenda PHP para saber o que fazer com eles.
